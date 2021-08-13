@@ -1,9 +1,10 @@
+import os
+
 os.system("pip install scapy")
 os.system("pip install colored")
 os.system('cls||clear')
 
 import scapy.all as scapy
-import os
 from colored import fg,attr
 
 def colorprint(text,color):
